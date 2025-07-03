@@ -1,0 +1,42 @@
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  color: #343a40;
+  font-weight: bold;
+}
+
+.card {
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.table th, .table td {
+  vertical-align: middle;
+}
+
+.btn {
+  font-weight: 500;
+}
+
+input:focus, select:focus, button:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+.table th {
+  background-color: #e9ecef;
+}
+
+@media (max-width: 576px) {
+  .form-check-inline {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+}
